@@ -103,6 +103,7 @@ For Windows, you can use Git bash, which comes included in Git for Windows. For 
 The first thing we need to do, is to check if Git is properly installed:
 
 ### Example
+
 `git --version`
 
 `git version 2.30.2.windows.1`
@@ -125,4 +126,37 @@ Change the user name and e-mail address to your own. You will probably also want
 
 If you want to set the username/e-mail for just the current repo, you can remove global
 
+## Creating Git Folder
 
+Now, let's create a new folder for our project:
+
+### Example
+
+`mkdir myproject`
+
+`cd myproject`
+
+**mkdir** makes a new directory.
+
+**cd** changes the current working directory.
+
+Now that we are in the correct directory. We can start by initializing Git!
+
+**Note**: If you already have a folder/directory you would like to use for Git:
+
+Navigate to it in command line, or open it in your file explorer, right-click and select "Git Bash here"
+
+## Initialize Git
+
+Once you have navigated to the correct folder, you can initialize Git on that folder:
+
+### Example
+
+`git init`
+
+Initialized empty Git repository in **/Users/user/myproject/.git/**
+You just created your first Git Repository!
+
+**Note**: Git now knows that it should watch the folder you initiated it on.
+
+Git creates a hidden folder to keep track of changes.
