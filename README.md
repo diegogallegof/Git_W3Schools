@@ -107,3 +107,22 @@ The first thing we need to do, is to check if Git is properly installed:
 
 `git version 2.30.2.windows.1`
 
+If Git is installed, it should show something like `git version X.Y`
+
+## Configure Git
+
+Now let Git know who you are. This is important for version control systems, as each Git commit uses this information:
+
+### Example
+
+`git config --global user.name "w3schools-test"`
+
+`git config --global user.email "test@w3schools.com"`
+
+Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub later on.
+
+**Note**: Use `global` to set the username and e-mail for every repository on your computer.
+
+If you want to set the username/e-mail for just the current repo, you can remove global
+
+
