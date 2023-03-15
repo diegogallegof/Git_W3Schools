@@ -74,7 +74,6 @@ Git is a popular version control system. It was created by **Linus Torvalds in 2
 * You can revert back to any previous commit.
 * Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
 
-
 ## Why Git?
 
 * Over 70% of developers use Git!
@@ -88,3 +87,23 @@ Git is a popular version control system. It was created by **Linus Torvalds in 2
 * GitHub makes tools that use Git.
 * GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
 * In this tutorial, we will focus on using Git with GitHub.
+
+# Git Getting Started
+
+## Git Install
+
+You can download Git for free from the following website: <https://www.git-scm.com/>
+
+## Using Git with Command Line
+
+To start using Git, we are first going to open up our Command shell.
+
+For Windows, you can use Git bash, which comes included in Git for Windows. For Mac and Linux you can use the built-in terminal.
+
+The first thing we need to do, is to check if Git is properly installed:
+
+### Example
+`git --version`
+
+`git version 2.30.2.windows.1`
+
